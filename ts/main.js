@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let btnCalcular = document.getElementById("btnCalcular");
     let resultado = document.getElementById("resultado");
     if (nomeProduto && precoProduto) {
-        nomeProduto.textContent = `Nome ${produto.nome}`;
+        nomeProduto.textContent = `Nome: ${produto.nome}`;
         precoProduto.textContent = `Preço: R$ ${produto.preco.toFixed(2)}`;
     }
     if (btnCalcular && inputImposto && resultado) {
