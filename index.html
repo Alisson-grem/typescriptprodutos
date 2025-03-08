@@ -7,21 +7,11 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <label for="">  Nome: </label>
-                <input type="text" class="form-control" id="nomeProduto">
-
-                <label for="">Preço: </label>
-                <input type="number" class="form-control" id="precoProduto">
-
-                <button class="btn btn-primary mt-3" id="calc">Calcular</button>
-
-                <h1>Preço Final: <span id="precoFinal"> </span></h1>
-            </div>
-        </div>
-    </div>
+     <p id="nomeProduto"></p>
+     <p id="precoProduto"></p>
+     <input type="number" id="inputImposto" placeholder="Digite o imposto (%)">
+     <button id="btnCalcular">Calcular Preço Final</button>
+     <p id="resultado"></p>
    
     <script src="ts/produto.ts"></script>
     <script src="ts/main.ts"></script>
